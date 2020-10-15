@@ -1,13 +1,10 @@
 import React from 'react';
+import AppRoutes from './routes';
 
-// import { Container } from './styles';
+import './styles/global.css';
 
-const src: React.FC = () => {
-  return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
-  );
+const App: React.FC = () => {
+  return <AppRoutes />;
 };
 
-export default src;
+export default App;
