@@ -40,6 +40,11 @@ export default class createOrphanages1602726265645
             type: 'text',
           },
           {
+            name: 'opening_hours',
+            type: 'varchar',
+            default: false,
+          },
+          {
             name: 'open_on_weekends',
             type: 'boolean',
             default: false,
